@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <input (input)="handleInputChange($event)">
+    </div>
+    <br>
+    <div id="empty" *ngIf="showNoStates">No States Found!</div>
+  </body>
+</html>
